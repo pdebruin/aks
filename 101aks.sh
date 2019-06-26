@@ -3,9 +3,9 @@
 #az account list
 #az account set --subscription
 
-az group create --name rgaks --location westeurope
+az group create --name aksrg201907 --location westeurope
 
-az aks create --resource-group rgaks --name myAKSCluster --node-count 1 --enable-addons monitoring --generate-ssh-keys --kubernetes-version 1.12.5 --node-vm-size Standard_D2s_v3
+az aks create --resource-group aksrg201907 --name aks201907 --node-count 1 --enable-addons monitoring --generate-ssh-keys --kubernetes-version 1.14.0 --node-vm-size Standard_D2s_v3 --load-balancer-sku standard 
 
 az aks enable-addons --resource-group akwrg --name myaks --addons http_application_routing
 
