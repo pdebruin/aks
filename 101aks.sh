@@ -25,3 +25,6 @@ az aks browse --resource-group rgaks --name myAKSCluster #--listen-port 8002
 # or hpa
 az aks scale --resource-group akwrg --name myaks --node-count 4
 
+az vm list-skus --location westeurope
+
+az feature list -o table --query "[?contains(name, 'Microsoft.ContainerService')].{Name:name,State:properties.state}"
