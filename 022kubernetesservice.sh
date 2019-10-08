@@ -28,3 +28,5 @@ az aks scale --resource-group akwrg --name myaks --node-count 4
 az vm list-skus --location westeurope
 
 az feature list -o table --query "[?contains(name, 'Microsoft.ContainerService')].{Name:name,State:properties.state}"
+
+#configure features signing egress 

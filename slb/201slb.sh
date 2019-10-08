@@ -1,1 +1,0 @@
-https://docs.microsoft.com/en-us/azure/aks/load-balancer-standard
