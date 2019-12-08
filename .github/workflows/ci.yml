@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: List dir
-      run: ls
+      run: bash 101aks.sh
 #    - name: Run a multi-line script
 #      run: |
 #        echo Add other actions to build,
