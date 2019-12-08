@@ -1,3 +1,5 @@
+#!/bin/bash
+
 export resourcegroup=aksrg201912
 export region=westeurope
 
