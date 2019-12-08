@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: List dir
+    - name: Create Azure Kubernetes Service
       run: bash 101aks.sh
 #    - name: Run a multi-line script
 #      run: |
