@@ -1,5 +1,5 @@
-export $resouregroup="aksrg201912"
-export $location="westeurope"
+export resouregroup="aksrg201912"
+export location="westeurope"
 
 #create a resource group
 az group create --name $resourcegroup --location $region
