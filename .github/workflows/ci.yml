@@ -12,9 +12,5 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - uses: actions/checkout@v1
-    - name: Create Azure Kubernetes Service
-      run: bash 101aks.sh
-#    - name: Run a multi-line script
-#      run: |
-#        echo Add other actions to build,
-#        echo test, and deploy your project.
+#    - name: Create Azure Kubernetes Service
+#      run: bash 101aks.sh
