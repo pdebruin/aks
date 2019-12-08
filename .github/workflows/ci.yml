@@ -12,13 +12,10 @@ jobs:
     - uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
-    - run: |
-        az webapp list --query "[?state=='Running']"
+#    - run: |
+#        az webapp list --query "[?state=='Running']"
 
-#    steps:
-#    - uses: azure/login@v1
-#      with:
-#        creds: ${{ secrets.AZURE_CREDENTIALS }}
-#    - uses: actions/checkout@v1
-#    - name: Create Azure Kubernetes Service
-#      run: bash 101aks.sh
+    - uses: actions/checkout@v1
+    
+    - name: Create Azure Kubernetes Service
+      run: bash 101aks.sh
