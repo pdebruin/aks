@@ -4,4 +4,4 @@ This repo is a work in progress. It should provide pointers to people using AKS 
 
 [AKS command-line interface](./101aks.sh)
 
-[AKS guidance](www.aks.com)
+[AKS guidance](./aks_guidance.md)
