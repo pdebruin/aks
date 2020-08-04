@@ -1,8 +1,7 @@
-# aks
+# Azure Kubernetes Service
 
-AKS
+This repo is a work in progress. It should provide pointers to people using AKS and related services. 
 
-Helm
+[AKS command-line interface](./101aks.sh)
 
-Istio
-
+[AKS guidance](www.aks.com)
