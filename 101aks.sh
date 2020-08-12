@@ -11,12 +11,8 @@ az group create --name $resourcegroupname --location $region
 #create aks
 az aks create --resource-group $resourcegroupname --name $aksname --node-count 2 --generate-ssh-keys --kubernetes-version $kubernetesversion --node-vm-size Standard_B2ms --enable-addons monitoring,azure-policy
 
-#az aks create --resource-group $resourcegroupname --name $aksname --node-count 3 --zones 1 2 3 --generate-ssh-keys --kubernetes-version $kubernetesversion --node-vm-size Standard_B2ms --enable-addons monitoring,azure-policy
+#az aks get-versions --location westeurope --output table
 
-#av zones
-#virtual-node
-#SLB V
-#VMSS V
-#MNP V
-#monitoring? 
-#Policies?
+#az vm list-skus --location westeurope
+
+#az feature list -o table --query "[?contains(name, 'Microsoft.ContainerService')].{Name:name,State:properties.state}"
