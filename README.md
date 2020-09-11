@@ -7,3 +7,5 @@ This repo is a work in progress. It should provide pointers to people using AKS 
 [AKS training](./aks_training.md)
 
 [AKS command-line interface](./101aks.sh)
+
+[AKS interaction](./aks_interaction.md)
