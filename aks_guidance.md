@@ -2,6 +2,8 @@
 
 This page should provide guidance to people using AKS and related services. 
 
+[AKS solution journey](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-start-here)
+
 [AKS best practices](https://docs.microsoft.com/en-us/azure/aks/best-practices)
 
 [Kubernetes in Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/innovate/kubernetes/ )
