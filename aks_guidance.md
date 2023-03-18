@@ -2,13 +2,17 @@
 
 This page should provide guidance to people using AKS and related services. 
 
-[AKS solution journey](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-start-here)
+[What is AKS](https://learn.microsoft.com/azure/aks/intro-kubernetes)
 
-[AKS best practices](https://docs.microsoft.com/en-us/azure/aks/best-practices)
+[AKS best practices](https://learn.microsoft.com/azure/aks/best-practices)
 
-[Kubernetes in Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/innovate/kubernetes/ )
+[AKS solution journey](https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks-start-here)
 
-[AKS secure baseline](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
+[AKS well architected](https://learn.microsoft.com/azure/architecture/framework/services/compute/azure-kubernetes-service/azure-kubernetes-service)
+
+[Kubernetes in Cloud Adoption Framework](https://learn.microsoft.com/azure/cloud-adoption-framework/innovate/kubernetes/)
+
+[AKS baseline architecture](https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks/baseline-aks)
 
 [AKS security and governance workshop](https://github.com/Azure/sg-aks-workshop)
 

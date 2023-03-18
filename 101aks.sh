@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export resourcegroupname=aks2106rg
-export aksname=aks2106
+export resourcegroupname=aks2303rg
+export aksname=aks2303
 export region=westeurope
 #az aks get-versions --location $region --output table
 export kubernetesversion=1.20.5
