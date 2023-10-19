@@ -1,11 +1,11 @@
 #!/bin/bash
 # curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
-export resourcegroupname=aks2303rg
-export aksname=aks2303
+export resourcegroupname=aks2310rg
+export aksname=aks2310
 export region=westeurope
 #az aks get-versions --location $region --output table
-export kubernetesversion=1.25.5
+export kubernetesversion=1.27.3
 #az vm list-skus --location $region --output table
 export vmsize=Standard_B2ms
 export admingroupid=2103f131-9cbf-4f9f-8290-0f02ad527838
