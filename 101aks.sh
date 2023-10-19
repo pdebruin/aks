@@ -4,11 +4,15 @@
 export resourcegroupname=aks2310rg
 export aksname=aks2310
 export region=westeurope
-#az aks get-versions --location $region --output table
+#az aks get-versions --location $region --o table
 export kubernetesversion=1.27.3
-#az vm list-skus --location $region --output table
+#az vm list-skus --location $region - table
 export vmsize=Standard_B2ms
 export admingroupid=2103f131-9cbf-4f9f-8290-0f02ad527838
+
+az login --use-device-code
+#az account list -o table
+az account set --subscription <guid>
 
 #create a resource group
 az group create --name $resourcegroupname --location $region
