@@ -28,8 +28,8 @@ az aks create --resource-group $resourcegroupname --name $aksname --node-count 2
 #az aks update -g myResourceGroup -n myAKSCluster --enable-azure-rbac
 
 
-#az aks install-cli # to install kubectl to interact with the cluster
-#https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+# to install kubectl and kubelogin to interact with the cluster
+(sudo) az aks install-cli
 
 az aks get-credentials --resource-group $resourcegroupname --name $aksname
 
